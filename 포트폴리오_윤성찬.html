@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>윤성찬 포트폴리오</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+<link href="https://webfontworld.github.io/SCoreDream/SCoreDream.css" rel="stylesheet">
+
+
+<style>
+a:link { color:white; }
+a:visited { color:white; }
+a:hover { color:green; }
+a:active { color:blue; }
+a{text-decoration:none}
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+@import url('https://webfontworld.github.io/SCoreDream/SCoreDream.css');
+
+
+body{
+font-family: 'Jua';
+background:#2B5776;
+transition:background 800ms;
+color:#ffffff;
+}
+
+div{
+//border:solid 1px;
+//border-color:#ffffff;
+}
+#testLine{
+//border:solid 1px;
+//border-color:#000000;
+}
+
+
+#topEmpty{
+height:4500px;
+}
+
+.navBar{ 
+position:fixed;
+top:-30px;
+left:0;
+height:30px;
+width:100%;
+font-size:20px;
+text-align:center;
+background:#2B5776;
+color:white;
+opacity:1;
+transition:all ease 600ms;
+z-index:90;
+}
+
+
+#mainContainer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+#section1{
+position:fixed;
+width:100%;
+z-index:2;
+top:30px;
+left:0px;
+transition:all ease 600ms;
+text-align:center;
+}
+
+#section1_1{
+position:fixed;
+width:100%;
+z-index:2;
+top:500px;
+left:0px;
+transition:all ease 600ms;
+text-align:center;
+}
+
+#section1_2{
+position:fixed;
+width:100%;
+height:100%;
+z-index:2;
+top:110vh;
+left:0px;
+transition:all ease 600ms;
+text-align:center;
+}
+
+
+#SC4{
+position:absolute;
+top:220px;
+left:150px;
+opacity:0.8;
+}
+
+#intro5{
+position:absolute;
+top:210px;
+left:960px;
+text-align:left;
+color:#f0f0f0;
+}
+
+#intro5_1{
+font-size:80px;
+}
+
+#intro5_2{
+font-size:50px;
+}
+
+#intro5_3{
+font-size:20px;
+}
+
+#intro5_4{
+font-size:50px;
+}
+
+#intro5_5{
+font-size:20px;
+}
+
+.aboutMe{
+width:100%;
+text-align:center;
+}
+
+
+.intro{
+display:block;
+text-align:center;
+opacity:1;
+transition:all ease 1s;
+}
+
+#intro1{
+display:inline-block;
+font-size:150px;
+margin:120px 0px 0px 0px;
+}
+
+#intro2{
+margin:0px 10px 0px 0px;
+font-size:81.5px;
+transition:all ease 200ms;
+}
+
+#intro3{
+position:relative;
+top:0px; 
+transition:all ease 600ms;
+z-index:2;
+font-family: "SCoreDream";
+}
+
+#section2{
+position:fixed;
+width:100%;
+top:1000px;
+transition:all ease 600ms;
+z-index:1;
+}
+
+#skills{
+font-family: "SCoreDream";
+}
+
+#smallPlanet{
+display:flex;
+flex-direction: row;
+justify-content: center;
+z-index:1;
+}
+
+.smallPlanet{
+z-index:8;
+height:50px;
+width:60px;
+z-index:1;
+}
+
+.smallPlanetImg{
+position:absolute;
+top:10px;
+transition:width 200ms;
+z-index:1;
+
+animation-name:doongSil;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}
+
+
+
+
+#smallPlanet1{
+width:80px;
+animation-play-state:running;
+}
+
+#smallPlanet2{
+width:60px;
+animation-play-state:paused;
+}
+
+#smallPlanet3{
+width:60px;
+animation-play-state:paused;
+}
+
+#smallPlanet4{
+width:60px;
+animation-play-state:paused;
+}
+
+#smallPlanet5{
+width:60px;
+animation-play-state:paused;
+}
+
+#smallPlanet6{
+width:60px;
+animation-play-state:paused;
+}
+
+#smallPlanet7{
+width:60px;
+animation-play-state:paused;
+}
+
+#smallPlanet8{
+width:60px;
+animation-play-state:paused;
+}
+
+@keyframes doongSil{
+	0%{
+		top:0;
+	}
+	50%{
+		top:-10px;
+	}
+	100%{
+		top:0px;
+	}
+}
+
+#bigPlanet{
+display:flex;
+flex-direction: column;
+z-index:1;
+}
+
+#bigPlanetImgDiv{
+text-align:center;
+z-index:1;
+}
+
+#mySkill{
+text-align:center;
+height:60px;
+z-index:1;
+}
+
+.everySkills{
+position:absolute;
+text-align:center;
+width:100%;
+font-size:50px;
+font-weight:bold;
+transition:opacity 0.4s;
+z-index:1;
+}
+
+#skill1{
+color:#E68686;
+opacity:1;
+z-index:1;
+}
+
+#skill2{
+color:#DC9146;
+opacity:0;
+z-index:1;
+}
+
+#skill3{
+color:#CEE4FF;
+opacity:0;
+z-index:1;
+}
+
+#skill4{
+color:#FFAA5F;
+opacity:0;
+z-index:1;
+}
+
+#skill5{
+color:#CA9262;
+opacity:0;
+z-index:1;
+}
+
+#skill6{
+color:#E19B50;
+opacity:0;
+z-index:1;
+}
+
+#skill7{
+color:#B6ECFF;
+opacity:0;
+z-index:1;
+}
+
+#skill8{
+color:#C7CFD5;
+opacity:0;
+z-index:1;
+}
+
+#skillBarDivDiv{
+display:flex;
+flex-direction: row;
+text-align:center;
+justify-content: center;
+z-index:1;
+}
+
+
+#skillBarDiv{
+width:35%;
+text-align:center;
+font-size:50px;
+z-index:1;
+}
+
+#skillBarSpan{
+display:block;
+margin:20px;
+font-size:20px;
+border-radius:15px;
+background:#E68686;
+color:#E68686;
+width:85%;
+transition:width 800ms;
+z-index:1;
+}
+
+
+#project1{
+position:fixed;
+width:100%;
+top:1000px;
+transition:all ease 600ms;
+z-index:1;
+}
+
+#health{
+font-family: "SCoreDream";
+}
+
+#health1{
+position:absolute;
+top:80px;
+left:200px;
+}
+
+#health2{
+position:absolute;
+top:166px;
+left:180px;
+display:none;
+}
+
+#health3{
+position:absolute;
+top:461px;
+left:180px;
+display:none;
+}
+
+#health4{
+position:absolute;
+top:225px;
+left:500px;
+display:none;
+}
+
+#healthB1{
+position:absolute;
+top:126px;
+left:240px;
+width:69px;
+height:22px;
+opacity:0.2;
+animation-name:kkambback;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}
+
+#healthB2{
+position:absolute;
+top:657px;
+left:344px;
+width:34px;
+height:24px;
+opacity:0.2;
+animation-name:kkambback;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}
+
+#healthB3{
+position:absolute;
+top:181px;
+left:898px;
+width:80px;
+height:22px;
+opacity:0.2;
+animation-name:kkambback;
+animation-duration:1s;
+animation-iteration-count:infinite;
+}
+
+@keyframes kkambback{
+	0%{
+		background:#b7b7b7;
+		opacity:0.2;
+	}
+	50%{
+		background:#6FB590;
+		opacity:0.5;
+	}
+	100%{
+		background:#b7b7b7;
+		opacity:0.2;
+	}
+}
+
+
+#healthInfo{
+position:absolute;
+top:70px;
+left:1200px;
+font-family: "SCoreDream";
+}
+
+#mecroInfo{
+position:absolute;
+top:70px;
+left:1200px;
+font-family: "SCoreDream";
+}
+
+
+.bigText{
+font-size:50px;
+}
+
+.smallText{
+font-size:20px;
+}
+
+#project2{
+position:fixed;
+width:100%;
+top:1000px;
+transition:all ease 600ms;
+z-index:1;
+}
+
+#mecro{
+font-family: "SCoreDream";
+}
+
+#mecro1{
+position:absolute;
+top:130px;
+left:380px;
+z-index:2;
+}
+
+#mecro2{
+position:absolute;
+top:60px;
+left:150px;
+z-index:1;
+}
+
+#project3{
+position:fixed;
+width:100%;
+top:1000px;
+transition:all ease 600ms;
+z-index:1;
+}
+
+#visuality{
+font-family: "SCoreDream";
+}
+
+#visuality1{
+position:absolute;
+top:150px;
+left:180px;
+z-index:2;
+}
+
+#visuality2{
+position:absolute;
+top:80px;
+left:80px;
+z-index:1;
+}
+
+
+
+#visualityInfo{
+position:absolute;
+top:140px;
+left:1200px;
+font-family: "SCoreDream";
+}
+
+#section3{
+font-family: "SCoreDream";
+position:fixed;
+display:flex;
+flex-direction:row;
+top:1000px;
+width:100%;
+transition:all ease 600ms;
+z-index:1;
+}
+
+
+
+
+#section3_1{
+display:flex;
+flex-direction:column;
+justify-content:space-evenly
+z-index:1;
+}
+
+.portDiv{
+margin:20px;
+z-index:1;
+}
+
+#port1{
+z-index:1;
+}
+
+#port2{
+z-index:1;
+}
+
+#port3{
+z-index:1;
+}
+
+#section3_2{
+z-index:1;
+}
+
+.portInfo{
+width:100%
+height:100%
+z-index:1;
+}
+
+#port1Info{
+position:absolute;
+top:15px;
+left:470px;
+transition:all ease 600ms;
+opacity:1;
+}
+
+#port2Info{
+position:absolute;
+left:470px;
+top:201px;
+transition:all ease 600ms;
+opacity:0;
+}
+
+#port3Info{
+position:absolute;
+left:470px;
+top:396px;
+transition:all ease 600ms;
+opacity:0;
+}
+
+#portImg1{
+transition:all ease 600ms;
+}
+
+#portImg2{
+transition:all ease 600ms;
+}
+
+#portImg3{
+transition:all ease 600ms;
+}
+
+#colorSection{
+position:fixed;
+top:0px;
+left:0px;
+width:110vw;
+height:110vh;
+
+}
+
+#colorSection1{
+position:absolute;
+top:0px;
+left:-110vw;
+width:110vw;
+height:110vh;
+background:#070468;
+transition:left 500ms;
+}
+
+#colorSection2{
+position:absolute;
+top:0px;
+left:-110vw;
+width:110vw;
+height:110vh;
+background:#030000;
+transition:left 500ms;
+}
+
+#colorSection3{
+position:absolute;
+top:0px;
+left:-110vw;
+width:110vw;
+height:110vh;
+background:#07DCB9;
+transition:left 500ms;
+}
+
+#section4{
+font-family: "SCoreDream";
+position:fixed;
+top:1000px;
+width:100%;
+transition:all ease 600ms;
+z-index:1;
+}
+
+#contactInfo{
+margin:50px;
+text-align:center;
+font-size:20px;
+}
+
+#QR{
+margin:150px 0px 50px 0px;
+}
+
+</style>
+</head>
+<body>
+<div id="navBar" class="navBar">
+	<a id="menu1" class="menu">안녕하세요</a>
+	<span>l</span>
+	<a id="menu2" class="menu">SKILLS</a>
+	<span>I</span>
+	<a id="menu3" class="menu">PORTFOLIO</a>
+	<span>I</span>
+	<a id="menu4" class="menu">CONTACT</a>
+</div>
+
+<div id="section1"> <!--  얘가 픽스 박혀 있음 -->
+	<div class="aboutMe">
+		<div id="intro1" class="intro">안녕하세요,</div>
+		<div id="intro2" class="intro">윤성찬입니다</div>
+	</div>
+</div>
+<div id="section1_1">
+	<div id="intro3" class="introInfo"><img src="포폴/증명사진.png" width=200px;></div>
+</div>
+<div id="section1_2">
+	<div id="intro4"><img id="SC4" src="포폴/SC4.jpg" height="550px"></div>
+	<div id="intro5">
+		<span id="intro5_1">저는,</span>
+		<br>
+		<span id="intro5_2">문제 해결능력이 뛰어난 웹 퍼블리셔입니다.</span>
+		<br>
+		<span id="intro5_3">사막에 던져놔도 살아 남을 수 있는 문제 해결능력으로,<br>어려운 업무도 해결해내는 모습을 보여드리겠습니다.</span>
+		<br><br>
+		<span id="intro5_4">공부하는 웹 퍼블리셔 입니다.</span>
+		<br>
+		<span id="intro5_5">코딩에 흥미가 있어서 백엔드에 도움이 되는 코딩 공부를 하며,<br>디자인에 관심이 많아 여러 기업들을 찾아보며 공부합니다.</span>
+	</div>	
+</div>
+<div id="section2" class="container">
+		<div id="skills">SKILLS</div>
+		<div id="smallPlanet" class="item">
+				<div class="smallPlanet"><img id="smallPlanet1" class="smallPlanetImg" src="포폴/planet1.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet2" class="smallPlanetImg" src="포폴/planet2.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet3" class="smallPlanetImg" src="포폴/planet3.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet4" class="smallPlanetImg" src="포폴/planet4.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet5" class="smallPlanetImg" src="포폴/planet5.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet6" class="smallPlanetImg" src="포폴/planet6.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet7" class="smallPlanetImg" src="포폴/planet7.png" width="60px"></div>
+				<div class="smallPlanet"><img id="smallPlanet8" class="smallPlanetImg" src="포폴/planet8.png" width="60px"></div>
+		</div>
+		<div id="bigPlanet" name="bigPlanet">
+			<div id="bigPlanetImgDiv">
+			<img id="bigPlanetImg" src="포폴/planet1.png" width=500px>
+			</div>
+		</div>
+		<div id="mySkill">
+			<div id="skill1" class="everySkills">HTML5</div>
+			<div id="skill2" class="everySkills">CSS3</div>
+			<div id="skill3" class="everySkills">JAVASCRIPT</div>
+			<div id="skill4" class="everySkills">PYTHON</div>
+			<div id="skill5" class="everySkills">DATA 처리 및 분석</div>
+			<div id="skill6" class="everySkills">DATA 시각화</div>
+			<div id="skill7" class="everySkills">UI구현</div>
+			<div id="skill8" class="everySkills">업무 자동화 및 효율화</div>
+		</div>
+		<div id="skillBarDivDiv">
+			<div id="skillBarDiv"><span id="skillBarSpan">1</span></div>
+		</div>
+	</div>
+
+<div id="project1">
+	<div id="health">team project</div>
+	<div id="health1"><img src="포폴/헬스1.png" width=850px;></div>
+	<div id="healthB1"></div>
+	<div id="healthB2"></div>
+	<div id="healthB3"></div>
+	<div id="health2">
+		<img src="포폴/헬스2.png" width=250px;>
+	</div>
+	<div id="health3">
+		<img src="포폴/헬스3.png" width=450px;>
+	</div>
+	<div id="health4">
+		<img src="포폴/헬스4.png" width=600px;>
+	</div>
+	<div id="healthInfo">
+		<span class="bigText">헬스장 회원 관리 시스템</span><br>
+		<span class="smallText">
+			사용언어 : python<br>
+			기능 : <br>
+			-신규 회원가입, 로그인, 관리자 로그인, 회원정보 text화 저장<br>
+			-회원권 구매, 메뉴 수정, 메뉴 추가, 결제정보 확인, 환불<br>
+			-사물함 관리<br>
+			-python tkinter모듈을 사용하여 UI구성<br>
+			<br>
+			
+		</span>
+	
+	</div>
+</div>
+<div id="project2">
+	<div id="mecro">project</div>
+	<div id="mecro1"><img src="포폴/Ymecro.png"></div>
+	<div id="mecro2"><img src="포폴/Y메크로.png" width=600px;></div>
+	<div id="mecroInfo">
+		<span class="bigText">Ymecro</span>
+		<span class="smallText"><br>
+			구현방법 :<br>
+			-python<br>-selenium<br>-chromedriver<br><br>
+			기능 : <br>
+			-웹 자동접속 및 경로 설정(URL, Id, Class, Xpath, Selector)<br>
+			-마우스 위치이동, 클릭, 키보드입력 자동화<br>
+			-마지막으로 선택한 선택자의 정보 자동 저장(txt)
+			
+			
+			
+			
+		</span>
+	</div>
+
+</div>
+<div id="project3">
+	<div id="visuality">project</div>
+	<div id="visuality1"><img src="포폴/data1.png" width=400px><img src="포폴/data2.png" width=400px></div>
+	<div id="visuality2"><img src="포폴/지도만들기.png" width=600px></div>
+	<div id="visualityInfo">
+		<span class="bigText">데이터 시각화</span>
+		<span class="smallText"><br>
+			사용언어 : python(matplotlib), pandas<br>
+			1. 지역별 채용 수<br>
+			python으로 만든 Ymecro(자동 크롤링 프로그램)를 사용하여<br>
+			사람인에 있는 채용정보 크롤링 후 txt 파일로 자동저장, <br>
+			이후 그 txt파일을 python 명령어를 사용하여<br>
+			전처리 과정을 거친 후 pandas와 matplotlib를 활용하여<br>
+			막대그래프로 시각화<br><br>
+			2. 경기도 성남시 뺑소니 교통사고 통계<br>
+			위와같이 Ymecro(자동 크롤링 프로그램)를 사용하여<br>
+			공공데이터포털에 접속하고<br>
+			경기도 성남시 뺑소니 교통사고 통계를 xcel파일로 저장 후<br>
+			pandas와 matplotlib를 활용하여 2차원 막대그래프로 시각화 
+			
+			
+		</span>
+	</div>
+</div>
+
+<div id="section3">
+	<div>POLTFOLIO</div>
+	<div id="section3_1">
+		<div id="port1" class="portDiv"><a href="domino/dominos.html" target='_blank'><img id="portImg1" class="portImg" src="포폴/도미노웹.png" height="250px"></a></div>
+		<div id="port2" class="portDiv"><a href="pascucci/CAFEPASCUCCI.html" target='_blank'><img id="portImg2" class="portImg" src="포폴/파스웹.png" height="150px"></a></div>
+		<div id="port3" class="portDiv"><a href="기억의미로/기억의미로.html" target='_blank'><img id="portImg3" class="portImg" src="포폴/기억의미로웹.png" height="150px"></a></div>
+	</div>
+	<div id="section3_2">
+		<div id="port1Info" class="portInfo">
+			<div class="port1Info"><span class="bigText">도미노피자</span></div>
+			<span style="line-height:42px;"> </span>
+			<span class="smallText">
+				내용 : 리디자인<br>
+				1. 상단 메뉴바의 불안정한 움직임 조율<br>
+				기획 : 상단 메뉴바의 불안정한 움직임 부드럽게 바꿈<br><br>
+				2. 하단 요소들의 재배치<br>
+				기획 : 하단 요소들을 블록이 쌓여있는 듯 한 모습으로 배열<br>
+				도미노 피자의 로고 색상을 메뉴에 적용<br>
+				맛있어 보이는 피자 메뉴 번갈아가며 노출<br>
+				기대효과 : 웹 방문시 사용자가 피자를 먹고싶다는 생각이 들게 함<br>
+				도미노 로고와 비슷한 색상을 보여주어 무의식 중에 로고가 각인되게 함
+			</span>
+
+		</div>
+		<div id="port2Info" class="portInfo">
+			<div class="port1Info"><span class="bigText">파스쿠찌</span></div>
+			<span style="line-height:42px;"> </span>
+			<span class="smallText">
+				내용 : 리디자인<br>
+				디자인 기획 : <br>
+				1. 배경의 단조로움 해결<br>
+				기획 : 파스쿠찌의 깨끗하고 쾌적한 매장 사진 배치<br>
+				기대효과 : 사용자가 매장의 분위기를 느껴 방문하고 싶은 마음이 들게 함<br><br>
+				2. 파스쿠찌의 메인 에스프레소<br>
+				기획 : 파스쿠찌만의 자랑 에스프레소를 설명하는 내용 추가<br>
+				기대효과 : 사용자로하여금 파스쿠찌의 에스프레소에 특별함을 느끼게 함
+			</span>
+		</div>
+		<div id="port3Info" class="portInfo">
+			<div class="port1Info"><span class="bigText">기억의 미로(team project)</span></div>
+			<span style="line-height:42px;"> </span>
+			<span class="smallText">
+				게임 설명 : <br>
+				제한 시간 안에 보이지 않는 지뢰를 피해 목적지에 도달하는 게임<br>
+				캐릭터를 꾸밀 수 있도록 하여 사용자에게 흥미를 더함<br>
+				제한시간을 둬 긴장감을 더함<br>
+				랜덤 아이템을 배치해 사용자가 운적 요소를 느끼게 함<br>
+				로컬스토리지를 이용하여 렝킹을 표시하였음.
+			</span>
+		</div>
+	</div>
+</div>
+<div id="colorSection">
+	<div id="colorSection1"></div>
+	<div id="colorSection2"></div>
+	<div id="colorSection3"></div>
+</div>
+
+<div id="section4">
+	<div>CONTACT</div>
+	<div id="contactInfo">
+		<img id="QR" src="포폴/QR.png" width=200px;>
+		<div>윤성찬.</div>
+		<div>010.5044.1108</div>
+		<div>dbsdbs17@gmail.com</div>
+	</div>
+
+</div>
+<div id="mainContainer">
+	<div id="topEmpty"></div>
+	
+	
+	
+	
+
+</div>
+	
+	
+	
+<script>
+
+document.getElementById("menu1").addEventListener("click",scrollTo1);
+document.getElementById("menu2").addEventListener("click",scrollTo2);
+document.getElementById("menu3").addEventListener("click",scrollTo3);
+document.getElementById("menu4").addEventListener("click",scrollTo4);
+
+
+
+
+function scrollTo1(){
+window.scrollTo(0,0,"smooth");
+}
+function scrollTo2(){
+window.scrollTo(0,1200,"smooth");
+}
+function scrollTo3(){
+window.scrollTo(0,1600,"smooth");
+}
+function scrollTo4(){
+window.scrollTo(0,2400,"smooth");
+}
+
+
+
+
+var colorList=[
+"#2B5776",
+"#3A4E76","#424A76",
+"#454876","#494576","#4C4476","#4D4376"
+]
+
+var beforeScroll;
+
+window.onscroll = function() {
+	console.log(beforeScroll);
+
+	//메뉴바 관련-------------------------------------------------------------------
+
+	var afterScroll=scrollY;
+	console.log(afterScroll);
+	var upScroll=beforeScroll-afterScroll; //양수면 올린거, 음수면 내린거
+	console.log(upScroll);
+	console.log(scrollY);
+	if(upScroll>0){ //upScroll시 메뉴바 등장
+		document.getElementById("navBar").style.top="0px";
+	}
+	if(upScroll<0){ //downScroll시 메뉴바 사라짐
+		document.getElementById("navBar").style.top="-30px";
+	}
+
+	//콘텐츠 관련-------------------------------------------------------------------
+	
+	//section1 top------------------------------------------------
+	
+	if(scrollY<400){
+		document.getElementById("section1").style.top="30px";
+	}
+	else if(scrollY>=400){
+		document.getElementById("section1").style.top="-285px";
+	}
+	
+	//section1 left--------------------------------------------------
+	
+	if(scrollY<800){
+		document.getElementById("section1").style.left="0px";		
+	}
+	else if(scrollY>=800){
+		document.getElementById("section1").style.left="-600px";
+	}
+	
+	
+	
+	//intro2 opacity-------------------------------------------------
+	
+	if(scrollY<1200){
+		document.getElementById("intro2").style.opacity=1;
+	}
+	else if(scrollY>=1200){
+		document.getElementById("intro2").style.opacity=0;
+	}
+	
+	//intro3 top-----------------------------------------------------
+
+	if(scrollY<400){
+		document.getElementById("intro3").style.top="0px";
+	}
+	else if(scrollY>=400){
+		document.getElementById("intro3").style.top="-300px";
+	}
+
+	//section1_1 top-----------------------------------------------------
+
+	if(scrollY<800){
+		document.getElementById("section1_1").style.top="500px";
+	}
+	else if(scrollY>=800){
+		document.getElementById("section1_1").style.top="-1000px";
+	}
+	
+	//section1_2 top-----------------------------------------------------
+	if(scrollY<800){
+		document.getElementById("section1_2").style.top="110vh";
+	}
+	else if(scrollY<1200){
+		document.getElementById("section1_2").style.top="0px";
+	}
+	else if(scrollY>=1200){
+		document.getElementById("section1_2").style.top="-110vh";
+	}
+
+	//intro3 opacity--------------------------------------------------
+
+	if(scrollY<800){
+		document.getElementById("intro3").style.opacity=1;
+	}
+	else if(scrollY>=800){
+		document.getElementById("intro3").style.opacity=0;
+	}
+	
+	//section2 top----------------------------------------------------
+	
+	if(scrollY<1200){
+		document.getElementById("section2").style.top="100vh";
+	}
+	else if(scrollY<1600){
+		document.getElementById("section2").style.top="100px";
+	}
+	else if(scrollY>=1600){
+		document.getElementById("section2").style.top="-110vh";
+	}
+	
+	
+	//project1 top
+
+	if(scrollY<1600){
+		document.getElementById("project1").style.top="100vh";
+	}
+	else if(scrollY<2000){
+		document.getElementById("project1").style.top="100px";
+	}
+	else if(scrollY>=2000){
+		document.getElementById("project1").style.top="-110vh";
+	}	
+
+	//project2 top
+
+	if(scrollY<2000){
+		document.getElementById("project2").style.top="100vh";
+	}
+	else if(scrollY<2400){
+		document.getElementById("project2").style.top="100px";
+	}
+	else if(scrollY>=2400){
+		document.getElementById("project2").style.top="-110vh";
+	}	
+	
+
+	//project3 top
+
+	if(scrollY<2400){
+		document.getElementById("project3").style.top="100vh";
+	}
+	else if(scrollY<2800){
+		document.getElementById("project3").style.top="100px";
+	}
+	else if(scrollY>=2800){
+		document.getElementById("project3").style.top="-110vh";
+	}	
+	
+	
+
+	//section3 top	
+
+	if(scrollY<2800){
+		document.getElementById("section3").style.top="100vh";
+	}
+	else if(scrollY<3200){
+		document.getElementById("section3").style.top="100px";
+	}
+	else if(scrollY>=3200){
+		document.getElementById("section3").style.top="-110vh";
+	}
+
+	//section4 top
+	
+	if(scrollY<3200){
+		document.getElementById("section4").style.top="100vh";
+	}
+	else if(scrollY>=3200){
+		document.getElementById("section4").style.top="100px";
+	}
+
+	
+	//배경색 관련-------------------------------------------------------------------
+	var colorSection1=document.getElementById("colorSection1");
+	var colorSection2=document.getElementById("colorSection2");
+	var colorSection3=document.getElementById("colorSection3");
+
+		colorSection1.style.left="-110vw"
+		colorSection2.style.left="-110vw"
+		colorSection3.style.left="-110vw"
+
+
+	//----------------------------------------------------------------------
+
+	if(scrollY==0){
+		document.body.style.backgroundColor=colorList[0];
+	}
+	else if(scrollY<400){
+		document.body.style.backgroundColor=colorList[1];
+	}
+	else if(scrollY<800){
+		document.body.style.backgroundColor=colorList[2];
+	}
+	else if(scrollY<1200){
+		document.body.style.backgroundColor=colorList[3];
+	}
+	else if(scrollY<1600){
+		document.body.style.backgroundColor=colorList[4];
+	}
+	else if(scrollY<2000){
+		document.body.style.backgroundColor=colorList[5];
+	}
+	else if(scrollY<2400){
+		document.body.style.backgroundColor=colorList[6];
+	}
+	else if(scrollY<2800){
+		document.body.style.backgroundColor=colorList[7];
+	}
+	else if(scrollY<3200){
+		document.body.style.backgroundColor=colorList[8];
+	}
+	else if(scrollY<3600){
+		document.body.style.backgroundColor=colorList[9];
+	}
+	else if(scrollY<4000){
+		document.body.style.backgroundColor=colorList[10];
+	}
+	else if(scrollY<4400){
+		document.body.style.backgroundColor=colorList[11];
+	}
+	else if(scrollY<4800){
+		document.body.style.backgroundColor=colorList[12];
+	}
+	else if(scrollY<5200){
+		document.body.style.backgroundColor=colorList[13];
+	}
+	else if(scrollY<5600){
+		document.body.style.backgroundColor=colorList[14];
+	}
+	else
+	{document.body.style.backgroundColor=colorList[46];}
+	console.log(document.body.style.backgroundColor);
+	beforeScroll=scrollY;
+	document.getElementById("navBar").style.backgroundColor=document.body.style.backgroundColor;
+	}
+
+/*
+else if(scrollY<1400){
+		document.body.style.backgroundColor=colorList[15];
+	}
+	else if(scrollY<1600){
+		document.body.style.backgroundColor=colorList[16];
+	}	
+	else if(scrollY<1700){
+		document.body.style.backgroundColor=colorList[17];
+	}
+	else if(scrollY<1800){
+		document.body.style.backgroundColor=colorList[18];
+	}
+	else if(scrollY<1900){
+		document.body.style.backgroundColor=colorList[19];
+	}
+	else if(scrollY<2000){
+		document.body.style.backgroundColor=colorList[20];
+	}
+	else if(scrollY<2100){
+		document.body.style.backgroundColor=colorList[21];
+	}
+	else if(scrollY<2200){
+		document.body.style.backgroundColor=colorList[22];
+	}
+	else if(scrollY<2300){
+		document.body.style.backgroundColor=colorList[23];
+	}
+	else if(scrollY<2400){
+		document.body.style.backgroundColor=colorList[24];
+	}
+	else if(scrollY<2500){
+		document.body.style.backgroundColor=colorList[25];
+	}
+	else if(scrollY<2600){
+		document.body.style.backgroundColor=colorList[26];
+	}
+	else if(scrollY<2700){
+		document.body.style.backgroundColor=colorList[27];
+	}
+	else if(scrollY<2800){
+		document.body.style.backgroundColor=colorList[28];
+	}
+	else if(scrollY<2900){
+		document.body.style.backgroundColor=colorList[29];
+	}
+	else if(scrollY<3000){
+		document.body.style.backgroundColor=colorList[30];
+	}
+	else if(scrollY<3100){
+		document.body.style.backgroundColor=colorList[31];
+	}
+	else if(scrollY<3200){
+		document.body.style.backgroundColor=colorList[32];
+	}
+	else if(scrollY<3300){
+		document.body.style.backgroundColor=colorList[33];
+	}
+	else if(scrollY<3400){
+		document.body.style.backgroundColor=colorList[34];
+	}
+	else if(scrollY<3500){
+		document.body.style.backgroundColor=colorList[35];
+	}
+	else if(scrollY<3600){
+		document.body.style.backgroundColor=colorList[36];
+	}
+	else if(scrollY<3700){
+		document.body.style.backgroundColor=colorList[37];
+	}
+	else if(scrollY<3800){
+		document.body.style.backgroundColor=colorList[38];
+	}
+	else if(scrollY<3900){
+		document.body.style.backgroundColor=colorList[39];
+	}
+	else if(scrollY<4000){
+		document.body.style.backgroundColor=colorList[40];
+	}
+	else if(scrollY<4100){
+		document.body.style.backgroundColor=colorList[41];
+	}
+	else if(scrollY<4200){
+		document.body.style.backgroundColor=colorList[42];
+	}
+	else if(scrollY<4300){
+		document.body.style.backgroundColor=colorList[43];
+	}
+	else if(scrollY<4400){
+		document.body.style.backgroundColor=colorList[44];
+	}
+	else if(scrollY<4500){
+		document.body.style.backgroundColor=colorList[45];
+	}
+	else if(scrollY<4600){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<4700){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<4800){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<4900){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5000){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	
+	else if(scrollY<5100){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5200){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5300){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5400){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5500){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5600){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5700){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5800){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<5900){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6000){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6100){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6200){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6300){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6400){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6500){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6600){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6700){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6800){
+		document.body.style.backgroundColor=colorList[46];
+	}
+	else if(scrollY<6900){
+		document.body.style.backgroundColor=colorList[46];
+	}
+*/
+
+/* planet mouseover */
+
+document.getElementById("smallPlanet1").addEventListener("mouseover",showPlanet0);
+document.getElementById("smallPlanet2").addEventListener("mouseover",showPlanet1);
+document.getElementById("smallPlanet3").addEventListener("mouseover",showPlanet2);
+document.getElementById("smallPlanet4").addEventListener("mouseover",showPlanet3);
+document.getElementById("smallPlanet5").addEventListener("mouseover",showPlanet4);
+document.getElementById("smallPlanet6").addEventListener("mouseover",showPlanet5);
+document.getElementById("smallPlanet7").addEventListener("mouseover",showPlanet6);
+document.getElementById("smallPlanet8").addEventListener("mouseover",showPlanet7);
+
+
+var planetArray=[
+"포폴/planet1.png","포폴/planet2.png","포폴/planet3.png","포폴/planet4.png",
+"포폴/planet5.png","포폴/planet6.png","포폴/planet7.png","포폴/planet8.png"
+]
+
+function showPlanet0(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[0];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=1;
+skill2.style.opacity=0;
+skill3.style.opacity=0;
+skill4.style.opacity=0;
+skill5.style.opacity=0;
+skill6.style.opacity=0;
+skill7.style.opacity=0;
+skill8.style.opacity=0;
+skillBar.style.background="#E68686";
+skillBar.style.color="#E68686";
+skillBar.style.width="85%";
+planet1.style.width="80px";
+planet2.style.width="60px";
+planet3.style.width="60px";
+planet4.style.width="60px";
+planet5.style.width="60px";
+planet6.style.width="60px";
+planet7.style.width="60px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="running";
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+
+
+
+}
+
+function showPlanet1(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[1];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=1;
+skill3.style.opacity=0;
+skill4.style.opacity=0;
+skill5.style.opacity=0;
+skill6.style.opacity=0;
+skill7.style.opacity=0;
+skill8.style.opacity=0;
+skillBar.style.background="#DC9146"
+skillBar.style.color="#DC9146"
+skillBar.style.width="75%";
+planet1.style.width="60px";
+planet2.style.width="80px";
+planet3.style.width="60px";
+planet4.style.width="60px";
+planet5.style.width="60px";
+planet6.style.width="60px";
+planet7.style.width="60px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet2").style.animationPlayState="running";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+}
+
+function showPlanet2(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[2];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=0;
+skill3.style.opacity=1;
+skill4.style.opacity=0;
+skill5.style.opacity=0;
+skill6.style.opacity=0;
+skill7.style.opacity=0;
+skill8.style.opacity=0;
+skillBar.style.background="#CEE4FF"
+skillBar.style.color="#CEE4FF"
+skillBar.style.width="90%";
+planet1.style.width="60px";
+planet2.style.width="60px";
+planet3.style.width="80px";
+planet4.style.width="60px";
+planet5.style.width="60px";
+planet6.style.width="60px";
+planet7.style.width="60px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="running";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+}
+
+function showPlanet3(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[3];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=0;
+skill3.style.opacity=0;
+skill4.style.opacity=1;
+skill5.style.opacity=0;
+skill6.style.opacity=0;
+skill7.style.opacity=0;
+skill8.style.opacity=0;
+skillBar.style.background="#FFAA5F"
+skillBar.style.color="#FFAA5F"
+skillBar.style.width="90%";
+planet1.style.width="60px";
+planet2.style.width="60px";
+planet3.style.width="60px";
+planet4.style.width="80px";
+planet5.style.width="60px";
+planet6.style.width="60px";
+planet7.style.width="60px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="running";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+}
+
+function showPlanet4(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[4];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=0;
+skill3.style.opacity=0;
+skill4.style.opacity=0;
+skill5.style.opacity=1;
+skill6.style.opacity=0;
+skill7.style.opacity=0;
+skill8.style.opacity=0;
+skillBar.style.background="#CA9262"
+skillBar.style.color="#CA9262"
+skillBar.style.width="80%";
+planet1.style.width="60px";
+planet2.style.width="60px";
+planet3.style.width="60px";
+planet4.style.width="60px";
+planet5.style.width="80px";
+planet6.style.width="60px";
+planet7.style.width="60px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="running";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+}
+
+function showPlanet5(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[5];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=0;
+skill3.style.opacity=0;
+skill4.style.opacity=0;
+skill5.style.opacity=0;
+skill6.style.opacity=1;
+skill7.style.opacity=0;
+skill8.style.opacity=0;
+skillBar.style.background="#E19B50"
+skillBar.style.color="#E19B50"
+skillBar.style.width="80%";
+planet1.style.width="60px";
+planet2.style.width="60px";
+planet3.style.width="60px";
+planet4.style.width="60px";
+planet5.style.width="60px";
+planet6.style.width="80px";
+planet7.style.width="60px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="running";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+}
+
+function showPlanet6(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[6];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=0;
+skill3.style.opacity=0;
+skill4.style.opacity=0;
+skill5.style.opacity=0;
+skill6.style.opacity=0;
+skill7.style.opacity=1;
+skill8.style.opacity=0;
+skillBar.style.background="#B6ECFF"
+skillBar.style.color="#B6ECFF"
+skillBar.style.width="85%";
+planet1.style.width="60px";
+planet2.style.width="60px";
+planet3.style.width="60px";
+planet4.style.width="60px";
+planet5.style.width="60px";
+planet6.style.width="60px";
+planet7.style.width="80px";
+planet8.style.width="60px";
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="running";
+document.getElementById("smallPlanet8").style.animationPlayState="paused";
+}
+
+function showPlanet7(){
+var planet=document.getElementById("bigPlanetImg");
+planet.src=planetArray[7];
+var skill1=document.getElementById("skill1");
+var skill2=document.getElementById("skill2");
+var skill3=document.getElementById("skill3");
+var skill4=document.getElementById("skill4");
+var skill5=document.getElementById("skill5");
+var skill6=document.getElementById("skill6");
+var skill7=document.getElementById("skill7");
+var skill8=document.getElementById("skill8");
+var skillBar=document.getElementById("skillBarSpan");
+var planet1=document.getElementById("smallPlanet1");
+var planet2=document.getElementById("smallPlanet2");
+var planet3=document.getElementById("smallPlanet3");
+var planet4=document.getElementById("smallPlanet4");
+var planet5=document.getElementById("smallPlanet5");
+var planet6=document.getElementById("smallPlanet6");
+var planet7=document.getElementById("smallPlanet7");
+var planet8=document.getElementById("smallPlanet8");
+skill1.style.opacity=0;
+skill2.style.opacity=0;
+skill3.style.opacity=0;
+skill4.style.opacity=0;
+skill5.style.opacity=0;
+skill6.style.opacity=0;
+skill7.style.opacity=0;
+skill8.style.opacity=1;
+skillBar.style.background="#C7CFD5"
+skillBar.style.color="#C7CFD5"
+skillBar.style.width="95%";
+planet1.style.width="60px";
+planet2.style.width="60px";
+planet3.style.width="60px";
+planet4.style.width="60px";
+planet5.style.width="60px";
+planet6.style.width="60px";
+planet7.style.width="60px";
+planet8.style.width="80px";
+
+
+document.getElementById("smallPlanet1").style.animationPlayState="paused";
+document.getElementById("smallPlanet1").style.animationPlayState="paused";;
+document.getElementById("smallPlanet2").style.animationPlayState="paused";
+document.getElementById("smallPlanet3").style.animationPlayState="paused";
+document.getElementById("smallPlanet4").style.animationPlayState="paused";
+document.getElementById("smallPlanet5").style.animationPlayState="paused";
+document.getElementById("smallPlanet6").style.animationPlayState="paused";
+document.getElementById("smallPlanet7").style.animationPlayState="paused";
+document.getElementById("smallPlanet8").style.animationPlayState="running";
+}
+
+/*project health B hover*/
+document.getElementById("healthB1").addEventListener("mouseover",healthB1hover);
+document.getElementById("healthB1").addEventListener("mouseout",healthB1out);
+document.getElementById("healthB2").addEventListener("mouseover",healthB2hover);
+document.getElementById("healthB2").addEventListener("mouseout",healthB2out);
+document.getElementById("healthB3").addEventListener("mouseover",healthB3hover);
+document.getElementById("healthB3").addEventListener("mouseout",healthB3out);
+
+function healthB1hover(){
+	document.getElementById("health2").style.display="inline-block";
+}
+
+function healthB1out(){
+	document.getElementById("health2").style.display="none";
+}
+
+function healthB2hover(){
+	document.getElementById("health3").style.display="inline-block";
+}
+
+function healthB2out(){
+	document.getElementById("health3").style.display="none";
+}
+function healthB3hover(){
+	document.getElementById("health4").style.display="inline-block";
+}
+function healthB3out(){
+	document.getElementById("health4").style.display="none";
+}
+
+
+/* portfolio mouseover */
+
+document.getElementById("portImg1").addEventListener("mouseover",showPort1);
+document.getElementById("portImg2").addEventListener("mouseover",showPort2);
+document.getElementById("portImg3").addEventListener("mouseover",showPort3);
+document.getElementById("port1Info").addEventListener("mouseover",showPort1);
+document.getElementById("port2Info").addEventListener("mouseover",showPort2);
+document.getElementById("port3Info").addEventListener("mouseover",showPort3);
+
+function showPort1(){
+	var port1Div=document.getElementById("port1Info");
+	var port2Div=document.getElementById("port2Info");
+	var port3Div=document.getElementById("port3Info");
+ 	var portImg1=document.getElementById("portImg1");
+ 	var portImg2=document.getElementById("portImg2");
+ 	var portImg3=document.getElementById("portImg3");
+	var colorSection1=document.getElementById("colorSection1");
+	var colorSection2=document.getElementById("colorSection2");
+	var colorSection3=document.getElementById("colorSection3");
+	var navBar=document.getElementById("navBar");
+	navBar.style.background="#070468";
+	port1Div.style.opacity=1;
+	port2Div.style.opacity=0;
+	port3Div.style.opacity=0;
+	portImg1.style.height="250px";
+	portImg2.style.height="150px";
+	portImg3.style.height="150px";
+	colorSection1.style.left="0px";
+	colorSection2.style.left="-110vw";
+	colorSection3.style.left="-110vw";
+}
+
+function showPort2(){
+	var port1Div=document.getElementById("port1Info");
+	var port2Div=document.getElementById("port2Info");
+	var port3Div=document.getElementById("port3Info");
+ 	var portImg1=document.getElementById("portImg1");
+ 	var portImg2=document.getElementById("portImg2");
+ 	var portImg3=document.getElementById("portImg3");
+	var colorSection1=document.getElementById("colorSection1");
+	var colorSection2=document.getElementById("colorSection2");
+	var colorSection3=document.getElementById("colorSection3");
+	var navBar=document.getElementById("navBar");
+	navBar.style.background="#030000";
+	port1Div.style.opacity=0;
+	port2Div.style.opacity=1;
+	port3Div.style.opacity=0;
+	portImg1.style.height="150px";
+	portImg2.style.height="250px";
+	portImg3.style.height="150px";
+	colorSection1.style.left="-110px";
+	colorSection2.style.left="0vw";
+	colorSection3.style.left="-110vw";
+}
+
+function showPort3(){
+	var port1Div=document.getElementById("port1Info");
+	var port2Div=document.getElementById("port2Info");
+	var port3Div=document.getElementById("port3Info");
+ 	var portImg1=document.getElementById("portImg1");
+ 	var portImg2=document.getElementById("portImg2");
+ 	var portImg3=document.getElementById("portImg3");
+	var colorSection1=document.getElementById("colorSection1");
+	var colorSection2=document.getElementById("colorSection2");
+	var colorSection3=document.getElementById("colorSection3");
+	var navBar=document.getElementById("navBar");
+	navBar.style.background="#07DCB9";
+	port1Div.style.opacity=0;
+	port2Div.style.opacity=0;
+	port3Div.style.opacity=1;
+	portImg1.style.height="150px";
+	portImg2.style.height="150px";
+	portImg3.style.height="250px";
+	colorSection1.style.left="-110px";
+	colorSection2.style.left="-110vw";
+	colorSection3.style.left="0vw";
+}
+
+
+</script>
+
+
+
+</body>
+</html>
